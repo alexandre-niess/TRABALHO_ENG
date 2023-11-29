@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="perfil.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../img/icones/logo.png" type="image/x-icon">
+    <title>Perfil - Freddy Fazbear's Pizza</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="details">
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="" id="afazeres">
+                    <i class='bx bx-home-alt'></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="" id="perfil">
+                    <i class='bx bx-user'></i>
+                    <span class="links_name">Perfil</span>
+                </a>
+                <span class="tooltip">Perfil</span>
+            </li>
+            <hr>
+            <li>
+                <a href="../dependencias/pizzas/pizzas.html">
+                    <i class='bx'><img src="../img/icones/pizza.png" alt="pizzas.png"></i>
+                    <span class="links_name">Pizzas</span>
+                </a>
+                <span class="tooltip">Pizzas</span>
+            </li>
+            <li>
+                <a href="../dependencias/bebidas/bebidas.html">
+                    <i class='bx'><img src="../img/icones/bebidas.png" alt="bebidas.png"></i>
+                    <span class="links_name">Bebidas</span>
+                </a>
+                <span class="tooltip">Bebidas</span>
+            </li>
+            <li>
+                <a href="../dependencias/visualizarPedido/visualizarPedido.html">
+                    <i class='bx'><img src="../img/icones/lupa.png" alt="lupa.png"></i>
+                    <span class="links_name">Visualizar Pedido</span>
+                </a>
+                <span class="tooltip">Visualizar Pedido</span>
+            </li>
+            <li>
+                <a href="../dependencias/moda/moda.html">
+                    <i class='bxt'><img src="../img/icones/grafico.png" alt="grafico.png"></i>
+                    <span class="links_name">Sabores mais pedidos</span>
+                </a>
+                <span class="tooltip">Sabores mais pedidos</span>
+            </li>
+            <li>
+                <a href="../dependencias/pedidosAnteriores/pedidosAnteriores.html">
+                    <i class='bx'><img src="../img/icones/seta.png" alt="seta.png"></i>
+                    <span class="links_name">Pedidos anteriores</span>
+                </a>
+                <span class="tooltip">Pedidos anteriores</span>
+            </li>
+            <li>
+                <a href="../dependencias/enviarPedido/enviarPedido.html">
+                    <i class='bx'><img src="../img/icones/cartao.png" alt="cartao.png"></i>
+                    <span class="links_name">Enviar Pedido</span>
+                </a>
+                <span class="tooltip">Enviar Pedido</span>
+            </li>
+            <li>
+                <a href="../dependencias/opinar/opinar.html">
+                    <i class='bx'><img src="../img/icones/opinar.png" alt="opinar.png"></i>
+                    <span class="links_name">Opinar</span>
+                </a>
+                <span class="tooltip">Opinar</span>
+            </li>
+            <li class="profile">
+                <div class="profile-details">
+                    
+                </div>
+            </li>
+        </ul>
+    </div>
+    <header>
+        <h1>Freddy Fazbear's Pizza</h1>
+    </header>
+    <main class="home-section">
+        
+        <section>
+                <div class="usuario">
+                    <a href="../index.html">Retornar</a>
+                    <div class="profile-pic-div">
+                        <img src="image.jpg" id="photo">
+                        <input type="file" id="file">
+                        <label for="file" id="uploadBtn">Choose Photo</label>
+                      </div>
+                    <div class="info1">
+                        <label for="lbNome">Nome: <input type="text" id="lbNome"></label><br>
+                        <br>
+                        <label for="lbEmail">E-Mail: <input type="email" id="lbEmail"></label><br>
+                        <br>
+                        <label for="lbDate">Nascimento: <input type="date" id="lbDate"></label>
+                    </div>
+                    <div class="info2">
+
+                        <Label for="lbS1">Senha: <input type="password" id="lbS1"></Label><br>
+                        <br>
+                        <label for="lbS2">Repetir senha: <input type="password" id="lbS2"></label>
+                    </div>
+                    <button id="btn" onclick="save()">Salvar</button>
+                </div>
+        </section>
+
+    </main>
+    
+    <script src="perfil.js"></script>
+</body>
+
+</html>
