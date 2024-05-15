@@ -1,4 +1,4 @@
-# TRABALHO_ENG
+# Trabalho-Engenharia-I
 
 Este é um projeto desenvolvido como trabalho extra para a disciplina de Engenharia de Software I. O objetivo do projeto é simular um site de uma pizzaria fictícia chamada Freddy Fazbear's Pizza, proporcionando uma interface amigável e funcional.
 
@@ -57,7 +57,7 @@ Certifique-se de ter um servidor web para rodar o projeto, como o Live Server do
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/alexandre-niess/TRABALHO_ENG
+   git clone https://github.com/alexandre-niess/Trabalho-Engenharia-I
 2. Abra o projeto em sua IDE de preferência.
 
 3. Use um servidor local para visualizar o site. No VSCode, por exemplo, você pode utilizar a extensão Live Server.
